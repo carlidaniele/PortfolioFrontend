@@ -110,6 +110,7 @@ li{
     background-color: rgb(39, 39, 39);;
     overflow: hidden;
     box-sizing: border-box;
+    max-width: 1230px;
   }
   
   .slider .lista-img {
@@ -179,6 +180,15 @@ footer {
     justify-content: center;
     background-color: rgb(39, 39, 39);
 }
+
+@media screen and (max-width: 1350px) {
+    .slider .puntos {
+      display: none;
+    }
+    .slider{
+        overflow-x: auto;
+    }
+  }
 
 @media screen and (max-width : 550px) {
 
